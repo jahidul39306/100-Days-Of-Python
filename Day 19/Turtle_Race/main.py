@@ -23,7 +23,7 @@ race_on = True
 while race_on:
     for turtle in turtles_list:
         turtle.forward(random.randint(0, 10))
-        if turtle.xcor() > 219:
+        if turtle.xcor() > 222:
             winner = turtle.pencolor()
             race_on = False
             break
